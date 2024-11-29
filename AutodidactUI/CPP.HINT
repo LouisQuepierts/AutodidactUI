@@ -1,0 +1,4 @@
+#define AUIDLL __declspec(dllexport)
+#define AUIDLL __declspec(dllimport)
+#define CALLBACK
+#define OUT

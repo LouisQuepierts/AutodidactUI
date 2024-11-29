@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\ui">
+      <UniqueIdentifier>{092f1493-ed14-43ad-877f-f915b28af44d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ui">
+      <UniqueIdentifier>{ce162402-f5b1-4e05-992a-e1ecce23aa29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\internal">
+      <UniqueIdentifier>{0445917b-5dbf-4b4e-90ea-1ac89d9d943b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="autodidact.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>源文件\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="caption.cpp">
+      <Filter>源文件\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="collider.cpp">
+      <Filter>源文件\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="component.cpp">
+      <Filter>源文件\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="dint.cpp">
+      <Filter>源文件\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="division.cpp">
+      <Filter>源文件\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="page.cpp">
+      <Filter>源文件\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>源文件\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="adata.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gbuffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AutodidactUI.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="minimize.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="maximize.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="restore.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="close.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="autodidact\auidll.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="autodidact\autodidact.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="autodidact\ui\architect.h">
+      <Filter>头文件\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="autodidact\ui\button.h">
+      <Filter>头文件\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="autodidact\ui\caption.h">
+      <Filter>头文件\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="autodidact\ui\collider.h">
+      <Filter>头文件\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="autodidact\ui\component.h">
+      <Filter>头文件\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="autodidact\ui\dint.h">
+      <Filter>头文件\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="autodidact\ui\division.h">
+      <Filter>头文件\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="autodidact\ui\page.h">
+      <Filter>头文件\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="autodidact\ui\repaintstruct.h">
+      <Filter>头文件\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="autodidact\ui\window.h">
+      <Filter>头文件\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="extern.h">
+      <Filter>头文件\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="autodidact\mathutil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="autodidact\adata.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gbuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
